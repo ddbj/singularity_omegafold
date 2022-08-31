@@ -25,7 +25,7 @@ sh -c "\
 export OMP_NUM_THREADS=${N}; \
 python3 /opt/OmegaFold/main.py \
 --device cpu \
-/home/y-okuda/singularity/omegafold/HSA.fasta \
+/home/y-okuda/singularity/omegafold/input.fasta \
 /home/y-okuda/singularity/omegafold/output_dir \
 "
 ```
