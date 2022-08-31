@@ -23,7 +23,7 @@ From: ubuntu:20.04
 
     pip install -r requirements.txt
 
-    # 遺伝研スパコンのGPUでcuda11を使用できるようにnvidia driverをインストール
+    # 遺伝研スパコンのGPUでcuda11を使用できるように対応するnvidia driverをインストール
     cd /usr/local/src
     wget https://us.download.nvidia.com/tesla/460.73.01/NVIDIA-Linux-x86_64-460.73.01.run
     chmod +x NVIDIA-Linux-x86_64-460.73.01.run
