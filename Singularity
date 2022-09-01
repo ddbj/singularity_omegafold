@@ -38,7 +38,7 @@ From: ubuntu:20.04
     rm /usr/local/src/NVIDIA-Linux-x86_64-460.73.01.run
 
     # cuda-toolkitをインストール
-    export DEBIAN_FRONTEND=noninsteractive
+    export DEBIAN_FRONTEND=noninteractive
     apt-get -y install libxml2-dev
     export TZ=Asia/Tokyo
     cd /usr/local/src
